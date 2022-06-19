@@ -56,7 +56,7 @@ def getResponse(ints, intents_json):
             result = random.choice(i['responses'])
             break
         else:
-            result = "You must ask the right questions"
+            result = "Maaf kami hanya membahas seputar balita mengenai pendidikan, pola asuh, gizi, usia dan juga perkembangan balita. Mohon maaf kami belum bisa kasih jawaban terbaik, tapi bantu kami memberikan masukan pada halaman saran."
     return result
 
 def chatbot_response(msg):
